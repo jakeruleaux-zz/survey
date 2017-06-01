@@ -4,6 +4,9 @@ $(document).ready(function() {
 
     $(".user1").text(user1Input);
     $("#you").show();
+
     event.preventDefault();
   });
+
+  var music = $("input:radio[name=music]:checked").val();
 });
